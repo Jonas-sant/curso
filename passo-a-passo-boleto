@@ -1,0 +1,15 @@
+1- Escanear o código de barra para descobrir a linha digitavel
+2- Descobrir qual o banco emissor (pegando os 3 primeiros digitos
+da linha digitavel)
+    -https://www.boletobancario-codigodebarras.com/2016/04/linha-digitavel.html
+    -https://www.boletobancario-codigodebarras.com/2018/05/boleto-bancario.html
+    -https://www.arquivodecodigos.com.br/dicas_truques_categoria2.php?linguagem=5&categoria1=133&categoria2=378
+
+
+Passo a passo para extrair as informações da linha digitavel
+01- Identificar o tipo de boleto se é bancário ou de consumo(agua,telefone,eletricidade), etc...
+02- Caso seja de banco, identificar qual o banco emissor do boleto.
+03- Extrair o tipo de de moeda, que se encontra na posição 04
+04- https://www.boletobancario-codigodebarras.com/
+
+Informações possiveis de retirar da linha digitavel:número do banco, moeda, data de vencimento, valor, etc.
