@@ -8,7 +8,7 @@
     <title>Formulário em PHP</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container col-md-6">
         <h1>Formulário</h1>
         <form action="01-form.php" class="form" method="post">
             <div class="form-group">
@@ -18,25 +18,27 @@
                 
             <label for="concordo">
                 <input type="checkbox" name="concordo" value="Sim">
+                Concordo
             </label><br>
     
-            <label>
-                <input type="radio" name="sexo" value="F">
-                Feminino
-            </label><br>
-    
-            <label>
-                <input type="radio" name="sexo" value="M">
-                Masculino
-            </label><br>
-    
+            <div class="row m-3">
+                <label class="col-md-6">
+                    <input type="radio" name="sexo" value="F">
+                    Feminino
+                </label><br>
+
+                <label class="col-md-6">
+                    <input type="radio" name="sexo" value="M">
+                    Masculino
+                </label><br>
+            </div>
             <select name="estado">
                 <option value="SP">São Paulo</option>
                 <option value="BH">Belo Horizonte</option>
                 <option value="MG">Minas Gerais</option>
             </select><br>
     
-            <textarea name="descricao" placehodler="Descricao" cols="30" rows="10"></textarea><br>
+            <textarea class="m-2 mx-8" name="descricao" placeholder="Descricao" cols="60" rows="4"></textarea><br>
         </div>
             <button type="submit" class="form-control btn btn-success">Enviar</button>
         </form>
