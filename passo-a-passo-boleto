@@ -11,5 +11,6 @@ Passo a passo para extrair as informações da linha digitavel
 02- Caso seja de banco, identificar qual o banco emissor do boleto.
 03- Extrair o tipo de de moeda, que se encontra na posição 04
 04- https://www.boletobancario-codigodebarras.com/
+https://pt.stackoverflow.com/questions/27135/boleto-banc%c3%a1rio-converter-c%c3%b3digo-de-barras-em-linha-digit%c3%a1vel/27139#27139
 
 Informações possiveis de retirar da linha digitavel:número do banco, moeda, data de vencimento, valor, etc.
