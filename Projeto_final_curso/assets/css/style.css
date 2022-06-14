@@ -1,0 +1,19 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+li{
+    list-style:none;
+}
+.list-albun{
+    transition:0.4s;
+}
+
+ul .list-albun:hover{
+    transform:scale(1.1);
+}
